@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "anke";
-  src: url("./assets/Fonts/anke.regular.ttf") format("truetype");
+  font-family: "epoch";
+  src: url("./assets/Fonts/Epoch-BF6881cf42e6637.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: "anke", sans-serif;
+  font-family: "epoch", sans-serif;
 }
