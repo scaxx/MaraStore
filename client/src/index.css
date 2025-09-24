@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: "epoch";
   src: url("./assets/Fonts/Epoch-BF6881cf42e6637.otf") format("truetype");

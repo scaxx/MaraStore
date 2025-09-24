@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <div>Foto</div>
-      <h1>MaraStore</h1>
+      <h1 class="text-3xl font-bold underline">MaraStore</h1>
     </div>
   )
 }
