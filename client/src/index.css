@@ -10,4 +10,8 @@
 body {
   font-family: "epoch", sans-serif;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
