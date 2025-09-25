@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from '../Components/Carousel'
+import Button from '../Components/Button'
 
 function Home() {
 
@@ -9,10 +10,10 @@ function Home() {
         <Carousel />
         <div className='flex flex-col place-items-center'>
           <h3 className='text-7xl'>Bienvenido a</h3>
-          <h1 className='text-9xl font-bold cursor-pointer text-lime-600'>MaraStore</h1>
+          <h1 className='text-9xl font-bold cursor-pointer text-cyan-500'>MaraStore</h1>
         </div>
       </div>
-      <button>Button</button>
+      <Button variante='mas' onClick={() => alert("Más!")}>Más</Button>
     </div>
   )
 }
