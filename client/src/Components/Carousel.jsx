@@ -22,7 +22,7 @@ const Carousel = () => {
   return (
     <div className='relative w-full max-w-2xl mx-auto overflow-hidden rounded-xl shadow-lg'>
         <div 
-            className='flex transition-transform duration-700'
+            className='flex transition-transform duration-900'
             style={{ transform: `translateX(-${current * 100}%)` }}
         >
             {imagenes.map((src, index) => (
