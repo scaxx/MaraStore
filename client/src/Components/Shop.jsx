@@ -1,8 +1,9 @@
 import React from 'react'
+import "../../src/index.css"
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div className='shop-container'>Shop</div>
   )
 }
 
