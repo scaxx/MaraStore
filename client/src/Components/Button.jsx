@@ -3,13 +3,13 @@ import React from 'react'
 const Button = ({ children, onClick, variante = "mas", className = "" }) => {
 
   //Estilo base
-  const estiloBase = "cursor-pointer bg-zinc-800 px-10 py-3 rounded-lg font-semibold text-2xl"
+  const estiloBase = "cursor-pointer bg-zinc-800 font-semibold text-2xl"
 
   //Variantes de estilo
   const variantes = {
-    mas: "font-bold",
-    agregar: "font-bold uppercase",
-    icon: "rounded-full px-10 py-10",
+    mas: "font-bold rounded-xl px-10 py-3",
+    agregar: "font-bold rounded-xl px-10 py-3 uppercase",
+    icon: "rounded-full px-5 py-5",
   };
 
   return (
