@@ -3,7 +3,7 @@ import React from 'react'
 const Button = ({ children, onClick, variante = "mas", className = "" }) => {
 
   //Estilo base
-  const estiloBase = "cursor-pointer bg-zinc-800 font-semibold text-2xl"
+  const estiloBase = "cursor-pointer bg-zinc-700 hover:bg-zinc-800 transition duration-400 font-semibold text-2xl"
 
   //Variantes de estilo
   const variantes = {
