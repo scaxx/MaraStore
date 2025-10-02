@@ -8,7 +8,7 @@ const Button = ({ children, onClick, variante = "mas", className = "" }) => {
   //Variantes de estilo
   const variantes = {
     mas: "font-bold rounded-xl px-10 py-3",
-    agregar: "font-bold rounded-xl px-10 py-3 uppercase",
+    agregar: "font-bold rounded-xl px-10 py-3 uppercase bg-cyan-500",
     icon: "rounded-full px-5 py-5",
     menu: "rounded-xl px-10 py-3",
   };
