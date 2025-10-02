@@ -17,14 +17,14 @@ const Categories = () => {
   ]
 
   return (
-    <div className='bg-zinc-700 p-6 grid grid-cols-3 place-items-center gap-6 rounded-xl text-xl w-[800px]'>
-      {categories.map((item, index) => (
+    <div className='bg-zinc-700 p-3 grid grid-cols-3 place-items-center gap-3 rounded-xl text-xl w-[500px]'>
+      {categories.map((cat, index) => (
         <p
           key={index}
-          onClick={() => alert(item)}
+          onClick={() => alert(cat)}
           className='bg-zinc-800 hover:bg-zinc-900 transform hover:-translate-y-1 transition-all duration-300 p-3 rounded-xl cursor-pointer w-full text-center shadow-md'
         >
-          {item}
+          {cat}
         </p>
       ))}
     </div>

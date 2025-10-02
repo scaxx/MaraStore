@@ -25,10 +25,12 @@ const Shop = () => {
             />
           </Button>
 
-          {/* Menú dinámico con animación */}
           <div
-            className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-6 z-50 menu-transition
-              ${open ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'}`}
+            className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-6 transition-all duration-500 ${
+              open
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 -translate-y-5 pointer-events-none'
+            }`}
           >
             <Categories />
           </div>

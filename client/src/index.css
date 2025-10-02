@@ -34,8 +34,3 @@ body {
   overflow: auto;
   animation: slideUpFade 2s ease-out forwards;
 }
-
-/* Animación de Categories */
-.menu-transition {
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
