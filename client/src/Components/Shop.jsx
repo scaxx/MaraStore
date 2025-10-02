@@ -7,6 +7,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import SearchBar from './SearchBar'
 import Button from './Button'
 import Categories from './Categories'
+import ProductCard from './ProductCard'
 
 const Shop = () => {
   const [open, setOpen] = useState(false)
@@ -50,6 +51,9 @@ const Shop = () => {
           </div>
         </div>
       </div>
+      <section>
+        <ProductCard />
+      </section>
     </div>
   )
 }
