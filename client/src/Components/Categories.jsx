@@ -17,7 +17,7 @@ const Categories = () => {
   ]
 
   return (
-    <div className='bg-zinc-700 p-6 grid grid-cols-3 place-items-center gap-6 rounded-xl text-xl animate-slideFadeDown w-[800px]'>
+    <div className='bg-zinc-700 p-6 grid grid-cols-3 place-items-center gap-6 rounded-xl text-xl w-[800px]'>
       {categories.map((item, index) => (
         <p
           key={index}

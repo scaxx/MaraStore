@@ -36,17 +36,6 @@ body {
 }
 
 /* Animación de Categories */
-@keyframes slideFadeDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-slideFadeDown {
-  animation: slideFadeDown 0.4s ease-out forwards;
+.menu-transition {
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }

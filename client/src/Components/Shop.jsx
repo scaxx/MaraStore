@@ -9,11 +9,11 @@ import Button from './Button'
 import Categories from './Categories'
 
 const Shop = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   return (
     <div className='shop-container flex flex-col gap-10 place-items-center m-10'>
-      <div className='flex flex-row gap-10 place-items-center relative'>
+      <div className='flex flex-row gap-10 place-items-center'>
         <SearchBar />
 
         <div className="relative">
@@ -25,11 +25,13 @@ const Shop = () => {
             />
           </Button>
 
-          {open && (
-            <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-4 z-50">
-              <Categories />
-            </div>
-          )}
+          {/* Menú dinámico con animación */}
+          <div
+            className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-6 z-50 menu-transition
+              ${open ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'}`}
+          >
+            <Categories />
+          </div>
         </div>
       </div>
     </div>
