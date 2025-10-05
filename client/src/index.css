@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "anke";
+  src: url("./assets/Fonts/anke.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "epoch", sans-serif;
   color: white;
@@ -14,6 +21,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+h2, h4, p, button, input {
+  font-family: "anke", "sans-serif";
 }
 
 /* Animación de Shop (sube y hace fade-in) */
