@@ -9,7 +9,7 @@ const ProductCard = () => {
         <img src="/" alt="img" />
         <div className='flex flex-col gap-4'>
           <p>Descripción</p>
-          <p>Precio</p>
+          <p className='font-bold'>Precio</p>
         </div>
       </div>
       <Button variante='agregar' onClick = {() => alert("Agregar")}>Agregar</Button> 
