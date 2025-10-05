@@ -12,7 +12,7 @@ const AnimatedBackground = () => {
       let height = canvas.height = window.innerHeight;
   
       //Configuración de partículas
-      const colors = ["rgba(0, 200, 255, 0.3)", "rgba(255, 0, 255, 0.3)"];
+      const colors = ["rgba(0, 200, 255, 0.7)", "rgba(255, 0, 255, 0.7)"];
       const particles = [];
       const numParticles = 100;
       const minRadius = 1;
