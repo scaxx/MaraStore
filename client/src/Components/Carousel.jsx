@@ -20,8 +20,8 @@ const Carousel = () => {
     }, [imagenes.length]);
 
   return (
-    <div className='relative w-full max-w-2xl mx-auto overflow-hidden rounded-xl'>
-        <div 
+    <main className='relative w-full max-w-2xl mx-auto overflow-hidden rounded-xl'>
+        <section 
             className='flex transition-transform duration-900'
             style={{ transform: `translateX(-${current * 100}%)` }}
         >
@@ -33,8 +33,8 @@ const Carousel = () => {
                     className='w-full flex-shrink-0 object-cover'
                 />
             ))}
-        </div>        
-    </div>
+        </section>        
+    </main>
   )
 }
 

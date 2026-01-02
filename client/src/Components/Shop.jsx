@@ -27,11 +27,11 @@ const Shop = () => {
   }, [])
 
   return (
-    <div className='shop-container flex flex-col gap-10 place-items-center m-10'>
-      <div className='flex flex-row gap-10 place-items-center'>
+    <header className='shop-container flex flex-col gap-10 place-items-center m-10'>
+      <article className='flex flex-row gap-10 place-items-center'>
         <SearchBar />
 
-        <div className="relative" ref={categoriesRef}>
+        <section className="relative" ref={categoriesRef}>
           <Button variante='menu' onClick={() => setOpen(!open)}>
             Categorías
             <FontAwesomeIcon
@@ -40,7 +40,7 @@ const Shop = () => {
             />
           </Button>
 
-          <div
+          <section
             className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-6 transition-all duration-500 ${
               open
                 ? 'opacity-100 translate-y-0'
@@ -48,13 +48,13 @@ const Shop = () => {
             }`}
           >
             <Categories />
-          </div>
-        </div>
-      </div>
-      <section>
+          </section>
+        </section>
+      </article>
+      <article>
         <ProductCard />
-      </section>
-    </div>
+      </article>
+    </header>
   )
 }
 
