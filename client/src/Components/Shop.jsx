@@ -27,8 +27,8 @@ const Shop = () => {
   }, [])
 
   return (
-    <header className='shop-container flex flex-col gap-10 place-items-center m-10'>
-      <article className='flex flex-row gap-10 place-items-center'>
+    <section className='shop-container flex flex-col gap-10 place-items-center m-10'>
+      <header className='flex flex-row gap-10 place-items-center'>
         <SearchBar />
 
         <section className="relative" ref={categoriesRef}>
@@ -50,16 +50,16 @@ const Shop = () => {
             <Categories />
           </section>
         </section>
-      </article>
-      <article className='grid grid-cols-3 gap-6'>
+      </header>
+      <main className='grid grid-cols-3 gap-6'>
         <ProductCard />
         <ProductCard />
         <ProductCard />
         <ProductCard />
         <ProductCard />
         <ProductCard />
-      </article>
-    </header>
+      </main>
+    </section>
   )
 }
 
