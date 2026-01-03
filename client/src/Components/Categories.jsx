@@ -17,7 +17,7 @@ const Categories = () => {
   ]
 
   return (
-    <main className='bg-zinc-700 p-3 grid grid-cols-3 place-items-center gap-3 rounded-xl text-xl w-[500px]'>
+    <main className='bg-zinc-700 p-3 grid grid-cols-3 place-items-center gap-3 rounded-xl text-xl w-[30rem]'>
       {categories.map((cat, index) => (
         <p
           key={index}

@@ -51,7 +51,12 @@ const Shop = () => {
           </section>
         </section>
       </article>
-      <article>
+      <article className='grid grid-cols-3 gap-6'>
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
         <ProductCard />
       </article>
     </header>
